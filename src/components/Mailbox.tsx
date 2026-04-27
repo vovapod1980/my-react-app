@@ -47,7 +47,7 @@ export default function Mailbox({ username, messages }: MailboxProps) {
       <p>Hello {username}</p>
       {messages.length > 0 ? (
         <>
-          <p>You have {messages.length} unread messages</p>
+          <p>You, Volodymyr, have {messages.length} unread messages</p>
           <p>Check your inbox to read them!</p>
           <button>Open inbox</button>
         </>
